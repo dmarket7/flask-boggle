@@ -18,9 +18,14 @@
   {% endfor %}
   <form id="board" action="/guess" method="POST">
     <input id="guess" type="text" name="guess" value>
-    <input type="submit">
+    <input id="submitButton" type="submit">
   </form>
   <h1 id="guessResult"></h1>
+  <span>Current Score: </span>
+  <h2 id="scoreTracker"></h2>
+  <span>High Score: </span>
+  <h2 id="highScoreTracker"></h2>
+
 
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
